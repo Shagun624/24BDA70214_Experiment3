@@ -1,0 +1,35 @@
+.card {
+  width: 200px;
+  padding: 15px;
+  border-radius: 10px;
+  background: #f3f4f6;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.image {
+  height: 80px;
+  background: #cbd5e1;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.in {
+  background: #d1fae5;
+  color: green;
+  padding: 5px 10px;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.out {
+  background: #fee2e2;
+  color: red;
+  padding: 5px 10px;
+  border-radius: 10px;
+  display: inline-block;
+}
